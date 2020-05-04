@@ -11,22 +11,12 @@
     <script src="js/vue.js"></script>
 
     <script>
-		var url = 'appsw.me';
-		var wapurl='appsw.me/wap';
-
-		if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
-		    if(window.location.href.indexOf("?mobile")<0){
-		        try{
-		            if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
-		                
-		               
-		            }else{ 
-		                alert('请使用手机访问网页appsw.me');
-		                window.location.href= wapurl;
-		            }
-		        }catch(e){}
-		    }
+	
+		if (!/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //如果不是移动端跳转至404
+			alert('请使用手机访问appsw.me');
+			window.location.href = '404.html'
 		}
+		
     </script>
   </head>
   <body>
