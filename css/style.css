@@ -1,0 +1,59 @@
+	#lunbo{
+    		border-radius: 10px;
+    		margin: 10px auto;
+    		width: 97%;
+    	}
+.carousel-control.left {
+  background-image:none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image:none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+    	#lunbo img{
+    		width: 100%;
+    		border-radius: 10px;
+    	}
+    	.pingtai {
+			padding: 20px;height: 100px;
+    		border-bottom: 1px solid #eee;
+    		position: relative;
+    	}
+    	.pingtai img{
+    		position: absolute;
+    		width: 64px;
+    		border-radius: 5px;
+    	}
+    	.pingtai h2{
+    		position: absolute;
+    		left: 100px;
+    		font-size: 20px;
+    		top: 25px;
+    	}
+    	.pingtai h4{
+    		position: absolute;
+    		left: 100px;
+    		top: 55px;
+    		color: #888;
+
+    	}
+    	.pingtai a{
+    		position: absolute;
+    		right: 20px;
+    		top: 30px;
+    	}
+    	.header{
+    		margin: 10px auto;
+    		width: 97%;
+    	}
+    	.header h1{
+    		margin-top: 10px;
+    		font-family: '微软雅黑';
+
+    		font-size: 20px;
+    	}
