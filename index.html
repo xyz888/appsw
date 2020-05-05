@@ -26,20 +26,18 @@
 	</div> -->
 	<!-- 圆点 -->
     <div id="carousel-example-generic" class="carousel slide " data-ride="carousel" >
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  <ol  class="carousel-indicators">
+	    <li v-for="(site,i) in lunbo" data-target="#carousel-example-generic" :data-slide-to="i" :class="i==0?'active':''" style="margin:0 3px"></li>
 	    <!-- <li data-target="#carousel-example-generic" data-slide-to="3"></li> -->
 	  </ol>
 	<!-- 内容 -->
 
 
 	  <div class="carousel-inner" role="listbox" id="lunbo">
-	    <div class="item active">
+	    <!-- <div class="item active">
 	      <a href="contact.html" target="_blank"><img v-bind:src="(cdn?cdn_url:'')+'img/zhizuo.png'" ></a>
-	    </div>
-	    <div class="item" v-for="site in lunbo"> 
+	    </div> -->
+	    <div  v-for="(site,i) in lunbo" :class="i==0?'item active':'item'"> 
 	      <a v-bind:href="site.href"><img v-bind:src="(cdn?cdn_url:'')+site.url" ></a>
 	    </div>
 	  </div>

@@ -6,8 +6,12 @@
 			cdn: true,
 			cdn_url: 'https://cdn.jsdelivr.net/gh/xyz888/appsw@v1.0/',
             lunbo: [
-				{ url: 'img/2.jpg' ,href : '' },
+				{ url: 'img/2.jpg' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
 				{ url: 'img/1.jpg' ,href : 'https://im.vsolution.online/landing/share.html?promote=19321797' },  //爱钱
+				{ url: 'img/ad.jpg' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
+				{ url: 'img/zhizuo.png' ,href : 'contact.html' },
+
+				
 		     
 		        // { url: 'img/3.jpg' ,href : 'http://www.baidu.com' }
 			    // { url: 'img/4.jpg' ,href : 'https://chanshike.cn/?uid=127825' },  //禅试客
