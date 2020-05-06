@@ -4,12 +4,13 @@
 		  el: '#app',
 		  data: {
 			cdn: true,
-			cdn_url: 'https://cdn.jsdelivr.net/gh/xyz888/appsw@v1.0/',
+			cdn_url: 'https://cdn.jsdelivr.net/gh/xyz888/appsw@gh-pages/',
             lunbo: [
-				{ url: 'img/2.jpg' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
-				{ url: 'img/1.jpg' ,href : 'https://im.vsolution.online/landing/share.html?promote=19321797' },  //爱钱
-				{ url: 'img/ad.jpg' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
-				{ url: 'img/zhizuo.png' ,href : 'contact.html' },
+				{ url: 'img/3.png' ,href : 'http://sdlw.pphulian.com/?r=818682617&d=20200504&en=hongshuitu&t=link&m=1&bt=1' },
+				{ url: 'img/4.png' ,href : 'https://im.vsolution.online/landing/share.html?promote=19321797' },  //爱钱
+				{ url: 'img/5.png' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
+				{ url: 'img/2.png' ,href : 'https://jq.qq.com/?_wv=1027&k=5WMKxmj' },
+				{ url: 'img/ad.png' ,href : 'contact.html' },
 
 				
 		     
@@ -17,14 +18,14 @@
 			    // { url: 'img/4.jpg' ,href : 'https://chanshike.cn/?uid=127825' },  //禅试客
 		    ],
 			pingtai: [
-				{ ico: 'img/pp.jpg' ,name: '试玩平台1' ,desc: '多多红包' ,plus: '提现秒到' ,href : 'http://sdlw.pphulian.com/?r=818682617&d=20200504&en=hongshuitu&t=link&m=1&bt=1' },
-				{ ico: 'img/shike.png' ,name: '试玩平台2' ,desc: '试客' ,plus: '提现秒到' ,href : 'https://shike.com/i/QXomIfA' },
-				{ ico: 'img/qianmai.jpg' ,name: '试玩平台3' ,desc: '钱脉' ,plus: '提现秒到' ,href : 'https://m.qianmaiap.com/?u=1974360' },
-				{ ico: 'img/chanshike.jpg' ,name: '试玩平台4' ,desc: '禅试客' ,plus: '任务最多' ,href : 'http://csk.limayao.com/?uid=5227244' },
-				{ ico: 'img/xiaoyu.jpg' ,name: '试玩平台5' ,desc: '小鱼' ,plus: '新手必做' ,href : 'http://wx.xy599.com/share.php?id=22821733&act_source=invite' },
-				{ ico: 'img/imoney.png' ,name: '试玩平台6' ,desc: '爱钱' ,plus: '海量任务' ,href : 'https://im.vsolution.online/landing/share.html?promote=19321797' },
-				{ ico: 'img/huojian.jpg' ,name: '试玩平台7' ,desc: '火箭' ,plus: '任务最多' ,href : 'https://huojianshiwan.com/?from=singlemessage&isappinstalled=0#/link/SDd6eUZQcFY1cTdIS1hRYzYyU2ZWUT09'},
-				{ ico: 'img/diaoqianyan.png' ,name: '试玩平台8' ,desc: '掉钱眼儿' ,plus: '新任务多' ,href : 'http://invite.chuangqish.cn/?userId=10351479&e=462&source=6'},
+				{ ico: 'img/pp.jpg' ,name: '多多红包' ,desc: '提现秒到' ,href : 'http://sdlw.pphulian.com/?r=818682617&d=20200504&en=hongshuitu&t=link&m=1&bt=1' },
+				{ ico: 'img/shike.png' ,name: '试客' ,desc: '提现秒到' ,href : 'https://shike.com/i/QXomIfA' },
+				{ ico: 'img/qianmai.jpg' ,name: '钱脉' ,desc: '极速提现' ,href : 'https://m.qianmaiap.com/?u=1974360' },
+				{ ico: 'img/chanshike.jpg' ,name: '禅试客' ,desc: '任务最多' ,href : 'http://csk.limayao.com/?uid=5227244' },
+				{ ico: 'img/xiaoyu.jpg' ,name: '小鱼' ,desc: '新手必做' ,href : 'http://wx.xy599.com/share.php?id=22821733&act_source=invite' },
+				{ ico: 'img/imoney.png' ,name: '爱钱' ,desc: '海量任务' ,href : 'https://im.vsolution.online/landing/share.html?promote=19321797' },
+				{ ico: 'img/huojian.jpg' ,name: '火箭' ,desc: '任务最多' ,href : 'https://huojianshiwan.com/?from=singlemessage&isappinstalled=0#/link/SDd6eUZQcFY1cTdIS1hRYzYyU2ZWUT09'},
+				{ ico: 'img/diaoqianyan.png' ,name: '掉钱眼儿' ,desc: '新任务多' ,href : 'http://invite.chuangqish.cn/?userId=10351479&e=462&source=6'},
 				
 		      
 				/*{ ico: 'img/qianzhuang.jpg' ,name: '钱庄' ,href : 'http://q.zgkeyou.com/download?fromuid=1793432' },
